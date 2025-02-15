@@ -8,33 +8,11 @@
     <classes>
       <class name="tests.DummyTest">
         <methods>
-          <include name="browserClose"/>
           <include name="launchBrowser"/>
+          <include name="browserClose"/>
           <include name="pretendTest"/>
         </methods>
       </class> <!-- tests.DummyTest -->
     </classes>
   </test> <!-- Test3(failed) -->
-  <test thread-count="3" parallel="tests" name="Test1(failed)">
-    <classes>
-      <class name="tests.SearchProductTest">
-        <methods>
-          <include name="browserClose"/>
-          <include name="searchProduct"/>
-          <include name="launchBrowser"/>
-        </methods>
-      </class> <!-- tests.SearchProductTest -->
-    </classes>
-  </test> <!-- Test1(failed) -->
-  <test thread-count="3" parallel="tests" name="Test2(failed)">
-    <classes>
-      <class name="tests.LoginTest">
-        <methods>
-          <include name="launchBrowser"/>
-          <include name="browserClose"/>
-          <include name="login"/>
-        </methods>
-      </class> <!-- tests.LoginTest -->
-    </classes>
-  </test> <!-- Test2(failed) -->
 </suite> <!-- Failed suite [Suite] -->

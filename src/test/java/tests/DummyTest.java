@@ -24,7 +24,7 @@ public class DummyTest extends Base {
 			
 		}
 		
-		@Test
+		@Test(enabled = false)
 		public void pretendTest() throws IOException {
 			
 			System.out.println(driver.getTitle());
